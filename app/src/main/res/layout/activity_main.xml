@@ -21,12 +21,21 @@
         app:layout_constraintVertical_bias="0.73">
 
         <TextView
-            android:id="@+id/textView4"
+            android:id="@+id/btn_inpit"
             android:layout_width="match_parent"
-            android:layout_height="184dp"
+            android:layout_height="80dp"
             android:background="@color/black"
             android:gravity="right"
             android:text="0"
+            android:textColor="@color/white"
+            android:textSize="35dp" />
+
+        <TextView
+            android:id="@+id/btn_res"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@color/black"
+            android:gravity="right"
             android:textColor="@color/white"
             android:textSize="35dp" />
 
@@ -41,25 +50,8 @@
                 android:layout_weight="1"
                 android:orientation="horizontal">
 
-                <Button
-                    android:id="@+id/button"
-                    style="@style/Widget.AppCompat.Button.Small"
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:background="@color/black"
-                    android:backgroundTint="@color/teal_200"
-                    android:drawableTint="@color/black"
-                    android:text="Button"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                    android:textColor="@color/black"
-                    android:textColorHighlight="@color/black"
-                    android:textColorHint="@color/black"
-                    android:textColorLink="@color/black"
-                    android:textCursorDrawable="@color/black" />
-
                 <TextView
-                    android:id="@+id/textView60"
+                    android:id="@+id/btn_c"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -73,7 +65,7 @@
                     android:textSize="30sp" />
 
                 <TextView
-                    android:id="@+id/textView61"
+                    android:id="@+id/btn_mc"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -87,7 +79,7 @@
                     android:textSize="30sp" />
 
                 <TextView
-                    android:id="@+id/textView62"
+                    android:id="@+id/btn_mr"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -101,7 +93,7 @@
                     android:textSize="30sp" />
 
                 <TextView
-                    android:id="@+id/textView37"
+                    android:id="@+id/btn_mplus"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -123,7 +115,7 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/textView63"
+                    android:id="@+id/btn_dele"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -137,7 +129,7 @@
                     android:textSize="30sp" />
 
                 <TextView
-                    android:id="@+id/textView64"
+                    android:id="@+id/btn_plusminus"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -151,7 +143,7 @@
                     android:textSize="30sp" />
 
                 <TextView
-                    android:id="@+id/textView65"
+                    android:id="@+id/btn_proc"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -165,7 +157,7 @@
                     android:textSize="30sp" />
 
                 <TextView
-                    android:id="@+id/textView66"
+                    android:id="@+id/btn_del"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -186,7 +178,7 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/textView44"
+                    android:id="@+id/btn_7"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -200,7 +192,7 @@
                     android:textSize="30sp" />
 
                 <TextView
-                    android:id="@+id/textView45"
+                    android:id="@+id/btn_8"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -214,7 +206,7 @@
                     android:textSize="30sp" />
 
                 <TextView
-                    android:id="@+id/textView46"
+                    android:id="@+id/btn_9"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -228,7 +220,7 @@
                     android:textSize="30sp" />
 
                 <TextView
-                    android:id="@+id/textView67"
+                    android:id="@+id/btn_umn"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -250,7 +242,7 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/textView48"
+                    android:id="@+id/btn_4"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -264,7 +256,7 @@
                     android:textSize="30sp" />
 
                 <TextView
-                    android:id="@+id/textView49"
+                    android:id="@+id/btn_5"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -278,7 +270,7 @@
                     android:textSize="30sp" />
 
                 <TextView
-                    android:id="@+id/textView50"
+                    android:id="@+id/btn_6"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -292,7 +284,7 @@
                     android:textSize="30sp" />
 
                 <TextView
-                    android:id="@+id/textView68"
+                    android:id="@+id/btn_minus"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -314,7 +306,7 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/textView52"
+                    android:id="@+id/btn_1"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -329,7 +321,7 @@
                     android:textSize="30sp" />
 
                 <TextView
-                    android:id="@+id/textView53"
+                    android:id="@+id/btn_2"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -343,7 +335,7 @@
                     android:textSize="30sp" />
 
                 <TextView
-                    android:id="@+id/textView54"
+                    android:id="@+id/btn_3"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -357,7 +349,7 @@
                     android:textSize="30sp" />
 
                 <TextView
-                    android:id="@+id/textView69"
+                    android:id="@+id/btn_plus"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -378,7 +370,7 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/textView56"
+                    android:id="@+id/btn_0"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -392,7 +384,7 @@
                     android:textSize="30sp" />
 
                 <TextView
-                    android:id="@+id/textView58"
+                    android:id="@+id/btn_dott"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -406,7 +398,7 @@
                     android:textSize="30sp" />
 
                 <TextView
-                    android:id="@+id/textView59"
+                    android:id="@+id/btn_eqvel"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
